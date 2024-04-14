@@ -1,0 +1,12 @@
+port: "8080"
+
+db:
+  host: "localhost"
+  port: "9592"
+  user: "postgres"
+  password: "postgres"
+  dbname: "transactionsdb"
+  sslmode: "disable"
+
+jwt_secret: "a huge secret for a small company"
+jwt_expiration: 3600 * 24 * 7
